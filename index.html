@@ -1,1 +1,121 @@
-<h1>www</h1>
+<!--首页-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜单</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+.active {
+    background-color: #ffffff;
+}
+/*头部样式*/
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #e8d4eb;
+}
+ 
+/* 导航链接 */
+.topnav a {
+  float: left;
+  display: block;
+  /*边框不知道为什么出现了一个神奇的效果*/
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  background-color: #e8d4eb;
+  color: rgb(0, 0, 0);
+  border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+    margin: 1 auto;
+}
+
+/* 创建三个相等的列 */
+.column {
+  width: auto;
+  border: 5px solid #cdcdcd;
+  padding: 230px;
+  margin: 25px;
+  background-color: #cdcdcd;
+}
+ 
+/* 列后清除浮动 */
+.row:after {
+  content: "(" attr(href) ")";
+  display: table;
+  clear: both;
+}
+ 
+/* 响应式布局 - 小于 600 px 时改为上下布局 */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*页脚声明样式*/
+.footer{
+    background-color: #9a9a9a;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1><b>巧探天机官网</b></h1><br>
+  <p>菜单</p>
+</div>
+
+<div class="topnav">
+  <a href="1introduce.html"><b>巧探天机/</b></a>
+  <a href="2price.html"><b>价格表/</b></a>
+  <a href="3member.html"><b>成员信息/</b></a>
+</div>
+  <div class="column">
+    <h2>简单介绍</h2>
+    <p>巧探天机，创办于2023年4月19日，在学校白沙创业园的基础平台上展开，主要营业范围以无人机，电子机电学部特色为主。创始人是无人机2201王一博。</p>
+    <p></p>
+    <p>主要业务为无人机拍摄，无人机租赁，无人机咨询，无人机回收</p>
+    <p> </p>
+    <p>顺带业务，比如一些sd无人机储存卡，u盘之类的，文件的储存物品</p>
+    <p> </p>
+    <p>拓展业务，比如出售电子电工学部的一些工具消耗品之类的小东西。</p>
+    <p> </p>
+    <p>在后期也会推出一些，有趣好玩的东西，但是一定是在安全的情况下开展，比如mini型的空心杯穿越机。</p>
+    <p>到后期也可能会去尝试一些，固定翼，直升机，RC遥控车之类的好玩的有趣的项目。用于丰富同学们的课余生活。</p>
+
+
+    <div class="column">
+      <div class="picture">
+      <img src="ziyuan\2.jpg" alt="图片1" width=130% height=auto>
+      <div class="text">店铺宣传海报</div>
+      </div>
+  </div>
+  </div>
+</div>
+<dis class="row">
+  <div class="footer">
+  <p>Copyright © 2023-always 王一博</p>
+  </div>
+</div>
+</body>
+</html>
