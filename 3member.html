@@ -1,1 +1,86 @@
+<!--成员页-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜单</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+.active {
+    background-color: #ffffff;
+}
+/*头部样式*/
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
 
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  color: rgb(0, 0, 0);
+    padding: 5px;
+    display: block;
+    margin: 1 auto;
+}
+
+/* 创建三个相等的列 */
+.column {
+  width: auto;
+  border: 5px solid #cdcdcd;
+  padding: 230px;
+  margin: 25px;
+  background-color: #cdcdcd;
+}
+ 
+/* 列后清除浮动 */
+.row:after {
+  content: "(" attr(href) ")";
+  display: table;
+  clear: both;
+}
+ 
+/* 响应式布局 - 小于 600 px 时改为上下布局 */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*页脚声明样式*/
+.footer{
+    background-color: #9a9a9a;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1><b>巧探天机官网</b></h1><br>
+  <p>成员</p>
+</div>
+
+<div class="topnav">
+  <a href="meun.html"><b>返回/</b></a>
+</div>
+  <div class="column">
+    <h2>成员</h2>
+    <p>DJI大疆系列无人机</p>
+    <p>实验中学巧探天机成员</p>
+    
+
+
+    
+</div>
+<dis class="row">
+  <div class="footer">
+  <p>Copyright © 2023-always 王一博</p>
+  </div>
+</div>
+</body>
+</html>
